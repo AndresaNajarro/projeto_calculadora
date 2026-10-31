@@ -118,7 +118,7 @@ projeto_calculadora/
 A classe TesteCalculadora.java cobre soma, subtração, multiplicação, divisão, divisão por zero e operações inválidas. Cada teste exibe entrada, resultado esperado e resultado obtido.
 
 Prints da execução dos testes
-![Execução dos testes](images/testes/Teste.Calculadora.png.png)
+![Execução dos testes](images/testes/Teste.Calculadora.png)
 
 ## 11. Refatoração
 Foi criada a branch Refatoracao, onde o código foi reorganizado com extração de métodos (somar, subtrair, etc.), melhoria nos nomes de variáveis e simplificação de condicionais com switch expression.
