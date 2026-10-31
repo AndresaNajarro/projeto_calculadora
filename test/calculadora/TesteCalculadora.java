@@ -9,7 +9,7 @@ import calculadora.Calculadora;
  *
  * <p>Para executar: compile e rode o método main.</p>
  *
- * @author Seu Nome
+ * @author Andresa Najarro
  * @version 1.0
  */
 public class TesteCalculadora {
