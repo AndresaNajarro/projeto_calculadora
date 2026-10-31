@@ -105,31 +105,30 @@ projeto_calculadora/
 ```
 ## 9. Explicação das Operações
 
-O método principal é calc(int a, int b, String op).
-
-|Operador	|    Operação	        |    Exemplo Resultado          |
-|+	        |    Soma	            |    calc(2, 3, "+")	5       |
-|-	        |    Subtração	        |    calc(5, 3, "-")	2       |
-|*	        |    Multiplicação	    |    calc(4, 3, "*")	12      |
-|/	        |    Divisão   	        |    calc(10, 2, "/")	5       |
-|/ com b=0	|    Divisão por zero	|    calc(10, 0, "/")   exceção |
-|inválido	|    Operação inválida	|    calc(1, 1, "%")    exceção |
+| Operador | Operação | Exemplo | Resultado |
+|---|---|---|---|
+| + | Soma | calc(2, 3, "+") | 5 |
+| - | Subtração | calc(5, 3, "-") | 2 |
+| * | Multiplicação | calc(4, 3, "*") | 12 |
+| / | Divisão | calc(10, 2, "/") | 5 |
+| / com b=0 | Divisão por zero | calc(10, 0, "/") | exceção |
+| inválido | Operação inválida | calc(1, 1, "%") | exceção |
 
 ## 10. Testes Unitários
 A classe TesteCalculadora.java cobre soma, subtração, multiplicação, divisão, divisão por zero e operações inválidas. Cada teste exibe entrada, resultado esperado e resultado obtido.
 
 Prints da execução dos testes
-![Execução dos testes](images/testes/testes-execucao.png)
+![Execução dos testes](images/testes/Teste.Calculadora.png.png)
 
 ## 11. Refatoração
 Foi criada a branch Refatoracao, onde o código foi reorganizado com extração de métodos (somar, subtrair, etc.), melhoria nos nomes de variáveis e simplificação de condicionais com switch expression.
-![Refatoração](images/refatoracao/refatoracao.png)
+![Refatoração](images/refatoracao/Print_refatoracao.png)
 
 ## 12. Documentação JavaDoc
 Gerada com o comando javadoc -d docs -sourcepath src -subpackages calculadora -author -version.
 
-![JavaDoc index](images/javadoc/javadoc-index.png)
-![JavaDoc index](images/javadoc/index.png)
+![JavaDoc index](images/javadoc/Javadoc.index.pngindex.png)
+![JavaDoc index](images/javadoc/Index.png)
 
 ## 13. Como Executar
 
