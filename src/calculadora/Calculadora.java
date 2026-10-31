@@ -8,7 +8,7 @@ package calculadora;
  * privado próprio, os nomes foram melhorados e as condicionais
  * foram simplificadas com switch expression do Java 17.</p>
  *
- * @author Seu Nome
+ * @author Andresa Najarro
  * @version 2.0
  * @since 2026
  */
